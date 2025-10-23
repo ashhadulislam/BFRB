@@ -26,22 +26,6 @@ The dataset includes:
 
 ---
 
-## Tasks & Evaluation
-
-- **Primary task:** Gesture classification — given the sensor data, identify which gesture (BFRB-type or non-BFRB) was performed.  
-- **Data challenges:** Multimodal, time-series data, possibly noisy or with missing sensor channels.  
-- **Additional considerations:** Device orientation (left/right wrist, upside-down), and subject-specific variability.
-
----
-
-## Why It Matters
-
-- Enables **objective monitoring** of BFRBs outside the clinic.  
-- Assists in **early intervention**, **treatment tracking**, and **behavioral-health research**.  
-- Presents a **challenging multimodal time-series classification** problem with real-world variability.
-
----
-
 # Gesture Details
 
 Each participant performed **18 unique gestures**:
@@ -87,5 +71,40 @@ The tables below list each gesture and its corresponding video example position(
 | Feel around in tray and pull out an object | Sitting |
 | Write name in air | Sitting |
 | Wave hello | Sitting |
+
+---
+## ⚙️ Tasks & Evaluation
+
+- **Primary task:** Gesture classification — given the sensor data, identify which gesture (BFRB-type or non-BFRB) was performed.  
+- **Data challenges:** Multimodal, time-series data, possibly noisy or with missing sensor channels.  
+- **Additional considerations:** Device orientation (left/right wrist, upside-down), and subject-specific variability.  
+
+---
+
+### 🎯 Core Objective
+
+To investigate **how self-supervised pretraining (e.g., CEBRA-Time/Behavior)** improves the **interpretability, structure, and generalization** of learned latent representations compared to purely supervised approaches.
+
+---
+
+### 🧩 Aspect 1: Interpretability and Mapping
+
+- Evaluate whether the **latent space** learned from sensor data produces **separable clusters** corresponding to known behaviors.  
+- Examine if the **latent dimensions** exhibit **meaningful correlations** with raw physical phenomena such as **kinematics, thermal, and proximity** signals.  
+- Explore whether the model can be **constrained via inductive biases** (e.g., in the loss function) to enforce interpretable, physically grounded embeddings.
+
+---
+
+### 🔬 Aspect 2: Performance Under Scarcity and Modality Effects
+
+- Analyze how **multimodal inputs** (IMU, thermal, proximity) and **self-supervised pretraining** contribute to **improved performance and robustness**, particularly when **labeled data are scarce**.  
+- Quantify the trade-offs between model complexity, sensor modality inclusion, and data availability.
+
+---
+
+### 🧠 Aspect 3: Generalization, Stability, and Model Choice
+
+- Assess whether the learned latent representations are **stable over time** (minimal drift) and **generalizable across individuals**.  
+- Compare **Transformer-based architectures** to **classical supervised models** in terms of **efficiency, scalability, and usability** for behavior classification and representation learning.
 
 ---
