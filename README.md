@@ -108,3 +108,5 @@ To investigate **how self-supervised pretraining (e.g., CEBRA-Time/Behavior)** i
 - Compare **Transformer-based architectures** to **classical supervised models** in terms of **efficiency, scalability, and usability** for behavior classification and representation learning.
 
 ---
+# Citation
+Laura Newman, David LoBue, Arianna Zuanazzi, Florian Rupprecht, Luke Mears, Roxanne McAdams, Erin Brown, Yanyi Wang, Camilla Strauss, Arno Klein, Lauren Hendrix, Maki Koyama, Josh To, Curt White, Yuki Kotani, Michelle Freund, Michael Milham, Gregory Kiar, Martyna Plomecka, Sohier Dane, and Maggie Demkin. CMI - Detect Behavior with Sensor Data. https://kaggle.com/competitions/cmi-detect-behavior-with-sensor-data, 2025. Kaggle.
