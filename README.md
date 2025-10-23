@@ -42,7 +42,7 @@ The tables below list each gesture and its corresponding video example position(
 
 ---
 
-## 🧠 BFRB-Like Gestures (Target Gestures)
+## BFRB-Like Gestures (Target Gestures)
 
 | **Gesture** |
 |--------------|
@@ -57,7 +57,7 @@ The tables below list each gesture and its corresponding video example position(
 
 ---
 
-## ✋ Non-BFRB-Like Gestures (Non-Target Gestures)
+## Non-BFRB-Like Gestures (Non-Target Gestures)
 
 | **Gesture** |
 |--------------|
@@ -73,7 +73,7 @@ The tables below list each gesture and its corresponding video example position(
 | Wave hello |
 
 ---
-## ⚙️ Tasks & Evaluation
+## Tasks & Evaluation
 
 - **Primary task:** Gesture classification — given the sensor data, identify which gesture (BFRB-type or non-BFRB) was performed.  
 - **Data challenges:** Multimodal, time-series data, possibly noisy or with missing sensor channels.  
@@ -81,13 +81,13 @@ The tables below list each gesture and its corresponding video example position(
 
 ---
 
-### 🎯 Core Objective
+### Core Objective
 
 To investigate **how self-supervised pretraining (e.g., CEBRA-Time/Behavior)** improves the **interpretability, structure, and generalization** of learned latent representations compared to purely supervised approaches.
 
 ---
 
-### 🧩 Aspect 1: Interpretability and Mapping
+### Aspect 1: Interpretability and Mapping
 
 - Evaluate whether the **latent space** learned from sensor data produces **separable clusters** corresponding to known behaviors.  
 - Examine if the **latent dimensions** exhibit **meaningful correlations** with raw physical phenomena such as **kinematics, thermal, and proximity** signals.  
@@ -95,14 +95,14 @@ To investigate **how self-supervised pretraining (e.g., CEBRA-Time/Behavior)** i
 
 ---
 
-### 🔬 Aspect 2: Performance Under Scarcity and Modality Effects
+### Aspect 2: Performance Under Scarcity and Modality Effects
 
 - Analyze how **multimodal inputs** (IMU, thermal, proximity) and **self-supervised pretraining** contribute to **improved performance and robustness**, particularly when **labeled data are scarce**.  
 - Quantify the trade-offs between model complexity, sensor modality inclusion, and data availability.
 
 ---
 
-### 🧠 Aspect 3: Generalization, Stability, and Model Choice
+### Aspect 3: Generalization, Stability, and Model Choice
 
 - Assess whether the learned latent representations are **stable over time** (minimal drift) and **generalizable across individuals**.  
 - Compare **Transformer-based architectures** to **classical supervised models** in terms of **efficiency, scalability, and usability** for behavior classification and representation learning.
