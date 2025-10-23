@@ -42,35 +42,35 @@ The tables below list each gesture and its corresponding video example position(
 
 ---
 
-## BFRB-Like Gestures (Target Gestures)
+## 🧠 BFRB-Like Gestures (Target Gestures)
 
-| **Gesture** | **Video Example Position(s)** |
-|--------------|-------------------------------|
-| Above ear – Pull hair | Sitting |
-| Forehead – Pull hairline | Sitting leaning forward |
-| Forehead – Scratch | Sitting |
-| Eyebrow – Pull hair | Sitting |
-| Eyelash – Pull hair | Sitting |
-| Neck – Pinch skin | Sitting |
-| Neck – Scratch | Sitting |
-| Cheek – Pinch skin | Sitting, Sitting leaning forward, Lying on back, Lying on side |
+| **Gesture** |
+|--------------|
+| Above ear – Pull hair |
+| Forehead – Pull hairline |
+| Forehead – Scratch |
+| Eyebrow – Pull hair |
+| Eyelash – Pull hair |
+| Neck – Pinch skin |
+| Neck – Scratch |
+| Cheek – Pinch skin |
 
 ---
 
-## Non-BFRB-Like Gestures (Non-Target Gestures)
+## ✋ Non-BFRB-Like Gestures (Non-Target Gestures)
 
-| **Gesture** | **Video Example Position(s)** |
-|--------------|-------------------------------|
-| Drink from bottle/cup | Sitting |
-| Glasses on/off | Sitting |
-| Pull air toward your face | Sitting |
-| Pinch knee/leg skin | Sitting leaning forward |
-| Scratch knee/leg skin | Sitting leaning forward |
-| Write name on leg | Sitting leaning forward |
-| Text on phone | Sitting |
-| Feel around in tray and pull out an object | Sitting |
-| Write name in air | Sitting |
-| Wave hello | Sitting |
+| **Gesture** |
+|--------------|
+| Drink from bottle/cup |
+| Glasses on/off |
+| Pull air toward your face |
+| Pinch knee/leg skin |
+| Scratch knee/leg skin |
+| Write name on leg |
+| Text on phone |
+| Feel around in tray and pull out an object |
+| Write name in air |
+| Wave hello |
 
 ---
 ## ⚙️ Tasks & Evaluation
