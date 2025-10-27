@@ -1,0 +1,33 @@
+Abstracts usually follow the format IMRD, introduction, methods, results, discussion, where discussion often links back to the introduction.
+
+Introduction introduces the overall problem statement in a context and justifies the importance, you provide key observations that are the starting point for the work (assumptions), present hypotheses or problems, and outline your overall approach (strategy for solving the problem).
+
+Background is background to the problem area with discussions about how certain methods were used to address the problems, discussions about the results achieved. The subsection Related works is the works that are most similar to yours in terms of specific questions and method choices. When describing methods, it is not the technical details but qualitative characteristics and how these affect the method's ability to solve the problem.
+
+Methods are the methods, algorithmically, technically, as in a school book, including evaluation metrics.
+
+Implementation (which can be part of Methods) is your implementations, preprocessing of data, searches of hyperparameters, etc., i.e. everything you did to take the methods from Methods to usability.
+
+Results are the results with a description of objective observations and objective analysis.
+
+Discussion is the subjective evaluation, what did you come to, the comparison with work in Related works, for example, considerations about the generality of the work (how dependent are the results on the choice of hyperparameters, for example) and advantages of your choice of approach as well as disadvantages or limitations of this.
+
+Conclusions your conclusions. A few short sentences.
+
+Don't forget that there must be a chapter dealing with aspects of your work and ethics, sustainability and relations with the surrounding community.
+
+
+
+Additionally, some comments on the content:
+*If you include a figure from some other source (like the web, an article, book, etc) you need the authors written consent to use it or it has to come with a written statement of public use.
+
+*Make sure *all* text in a figure can be easily read and thus does not get too small when reading your report in A4.
+
+*All abbreviations, symbols, graphical symbols, colors etc in a figure must be explained in the legend or inset.
+
+*All symbols in formulas, tables or text body must be explained, except the ones which are accepted by the wide CS scientific community.
+
+*Check that your references are complete. Often information about year, publication source/venue, etc is missing.
+
+*In your Results section, for important findings, if you claim results of case A are better than case B, you can not make this statement soley based on e.g. a difference in their means of some performance metric. You need to perform a statistical test (like a Kolmogorov-Smirnov test, ANOVA, Wilcoxon signed rank test, etc) and provide the effect size (or similar, thus Cohen's d effect size or receiver operator characteristic (ROC) area under the curve (AUC) or Pearsons's r, etc). For minor results, you are very welcome to do such tests, but you do not have to. Remember to correct for multiple comparisons when you see it makes a difference for your qualitative conclusions.
+
